@@ -86,11 +86,12 @@ public class conn {
         statmt.close();
     }
     // --------Удаление издания--------
-    public static void deleteRecordFromTable() throws SQLException {
+    public static void deleteRecordFromTable(int number) throws SQLException {
 
         Connection conn = null;
         PreparedStatement preparedStatement = null;
-        int a=5;
+
+        int a=number;
 
         try {
             conn = getDBConnection();
@@ -99,7 +100,15 @@ public class conn {
 
             // execute delete SQL stetement
             preparedStatement.executeUpdate();
+            /*resSet = statmt.executeQuery("SELECT * FROM Lib");
+            while(resSet.next())
 
+
+            {
+
+
+
+            }*/
             System.out.println("Record is deleted!");
 
         } catch (SQLException e) {
@@ -173,6 +182,29 @@ public class conn {
 
         System.out.println("Таблица выведена");
     }
+
+    //--------Просмотр информации выбранного издания--------
+    public static void ShowLine(int i) throws ClassNotFoundException, SQLException
+    {
+        resSet = statmt.executeQuery("SELECT * FROM Lib");
+        while(resSet.next())
+        {
+            int id = resSet.getInt("Id");
+            if (id==i){
+                String  name = resSet.getString("Name");
+                String  type = resSet.getString("Type");
+                int pages = resSet.getInt("Pages");
+                Date dateofpub = resSet.getDate("Date_Of_Publication");
+                String house = resSet.getString("Publishing_House");
+                Formatter fmt1 = new Formatter();
+                fmt1.format("%5d %25s %15s %12d %20s\n", id, name, type, pages, house);
+                System.out.print(fmt1);
+            }
+
+        }
+
+    }
+
 
     // --------Закрытие--------
     public static void CloseDB() throws ClassNotFoundException, SQLException

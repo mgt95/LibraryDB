@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DB_jar</output-path>
+    <root id="archive" name="DB.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/jar/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DB" />
+      <element id="extracted-dir" path="D:/Meiram/sqliteadmin/sqliteadmin/sqlite-jdbc-3.7.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

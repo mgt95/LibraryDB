@@ -18,16 +18,16 @@ public class db {
         System.out.println("3.Просмотр информации выбранного издания");
         System.out.println("4.Удаление выбранного издания");
         System.out.println("5.Выход");
-        System.out.println("What command do you need?");
+        System.out.println("Какая команда вам нужна?");
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter number of command: ");
+        System.out.println("Введите номер команды ");
         int input = in.nextInt();
 
 
 
 
        switch (input){
-
+            //--------Просмотр таблицы--------
             case 1:conn.ReadDB();
                 System.out.println("Do you want to continue?");
                 System.out.println("y/n");
@@ -41,13 +41,25 @@ public class db {
 
                 }
                 break;
+
+           //--------Запись в таблицу--------
             case 2:conn.WriteDB();
                 break;
-            case 3:
+
+           //--------Просмотр информации выбранного издания--------
+            case 3:conn.ReadDB();
+                System.out.println("Какое издание вам нужно?\n Выберите номер:");
+                Scanner integ = new Scanner(System.in);
+                int inp=integ.nextInt();
+                conn.ShowLine(inp);
                 break;
-            case 4:conn.deleteRecordFromTable();
+
+           //--------Удаление информации выбранного издания--------
+            case 4:
+                conn.deleteRecordFromTable(5);
                 break;
-            case 5:
+           //--------Выход--------
+           case 5:
                 break;
             default:
                 System.out.println("We haven't this command, try again and choose 1-5");
