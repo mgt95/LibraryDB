@@ -12,17 +12,9 @@ public class db {
 
         conn.Conn();
         conn.CreateDB();
-
-        System.out.println("1.Просмотр зарегистрированных изданий в фонде");
-        System.out.println("2.Добавление нового издания в фонд");
-        System.out.println("3.Просмотр информации выбранного издания");
-        System.out.println("4.Удаление выбранного издания");
-        System.out.println("5.Выход");
-        System.out.println("Какая команда вам нужна?");
+        Extra.showComm();
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите номер команды ");
         int input = in.nextInt();
-
 
 
 
@@ -56,7 +48,11 @@ public class db {
 
            //--------Удаление информации выбранного издания--------
             case 4:
-                conn.deleteRecordFromTable(5);
+                conn.ReadDB();
+                System.out.println("Какое издание вы хотите удалить?\n Выберите номер столбца Id:");
+                Scanner intd = new Scanner(System.in);
+                int aDel=intd.nextInt();// Число Id
+                conn.deleteRecordFromTable(aDel);
                 break;
            //--------Выход--------
            case 5:

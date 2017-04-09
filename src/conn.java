@@ -8,13 +8,13 @@ import java.util.Scanner;
 
 public class conn {
 
-    public static Connection conn;
-    public static Statement statmt;
-    public static ResultSet resSet;
-    public static String aName;
-    public static String aType;
-    public static int aPages;
-    public static String aHouse;
+    private static Connection conn;
+    private static Statement statmt;
+    private static ResultSet resSet;
+    private static String aName;
+    private static String aType;
+    private static int aPages;
+    private static String aHouse;
 
     public static void setName(){
         System.out.println("Enter name");
@@ -109,7 +109,7 @@ public class conn {
 
 
             }*/
-            System.out.println("Record is deleted!");
+            System.out.println("Запись удалена");
 
         } catch (SQLException e) {
 
@@ -163,10 +163,13 @@ public class conn {
     {
         resSet = statmt.executeQuery("SELECT * FROM Lib");
         Formatter fmt = new Formatter();
-        fmt.format("%5s %25s %15s %12s %20s\n", "Id", "Name", "Type", "Pages", "Publishing house");
+        fmt.format("%5s %25s %15s %12s %20s %5s %20s\n", "#Num", "Name", "Type", "Pages", "Publishing house","Id", "Date_Of_Publication");
         System.out.println(fmt);
+        int i=0;
         while(resSet.next())
         {
+
+            i++;
             int id = resSet.getInt("Id");
             String  name = resSet.getString("Name");
             String  type = resSet.getString("Type");
@@ -174,9 +177,10 @@ public class conn {
             Date dateofpub = resSet.getDate("Date_Of_Publication");
             String house = resSet.getString("Publishing_House");
             Formatter fmt1 = new Formatter();
-            fmt1.format("%5d %25s %15s %12d %20s\n", id, name, type, pages, house);
+            fmt1.format("%5d %25s %15s %12d %20s %5d", i, name, type, pages, house, id);
+            System.out.print(fmt1 +"    ");
+            System.out.println(dateofpub);
 
-            System.out.print(fmt1);
 
         }
 
