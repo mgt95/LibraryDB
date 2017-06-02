@@ -2,7 +2,10 @@
  * Created by Meiram on 24.03.2017.
  */
 import java.sql.*;
+import java.text.DateFormat;
 import java.util.Formatter;
+import java.util.GregorianCalendar;
+import java.util.Locale;
 import java.util.Scanner;
 
 
@@ -163,7 +166,7 @@ public class conn {
     {
         resSet = statmt.executeQuery("SELECT * FROM Lib");
         Formatter fmt = new Formatter();
-        fmt.format("%5s %25s %15s %12s %20s %5s %20s\n", "#Num", "Name", "Type", "Pages", "Publishing house","Id", "Date_Of_Publication");
+        fmt.format("%5s %25s %15s %12s %20s %20s %5s\n", "#Num", "Name", "Type", "Pages", "Publishing house","Date_Of_Publication", "Id");
         System.out.println(fmt);
         int i=0;
         while(resSet.next())
@@ -174,12 +177,11 @@ public class conn {
             String  name = resSet.getString("Name");
             String  type = resSet.getString("Type");
             int pages = resSet.getInt("Pages");
-            Date dateofpub = resSet.getDate("Date_Of_Publication");
+            String dateofpub = resSet.getString("Date_Of_Publication");
             String house = resSet.getString("Publishing_House");
             Formatter fmt1 = new Formatter();
-            fmt1.format("%5d %25s %15s %12d %20s %5d", i, name, type, pages, house, id);
-            System.out.print(fmt1 +"    ");
-            System.out.println(dateofpub);
+            fmt1.format("%5d %25s %15s %12d %20s %20s %5d\n", i, name, type, pages, house,  dateofpub, id);
+            System.out.print(fmt1);
 
 
         }
@@ -198,11 +200,13 @@ public class conn {
                 String  name = resSet.getString("Name");
                 String  type = resSet.getString("Type");
                 int pages = resSet.getInt("Pages");
-                Date dateofpub = resSet.getDate("Date_Of_Publication");
+                String dateofpub = resSet.getString("Date_Of_Publication");
                 String house = resSet.getString("Publishing_House");
                 Formatter fmt1 = new Formatter();
-                fmt1.format("%5d %25s %15s %12d %20s\n", id, name, type, pages, house);
+                fmt1.format("%5d %25s %15s %12d %20s %20s\n", id, name, type, pages, house, dateofpub);
                 System.out.print(fmt1);
+
+
             }
 
         }
