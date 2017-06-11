@@ -37,24 +37,24 @@
       <file leaf-file-name="conn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/conn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79826087">
-              <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.76869565">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-                <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-                <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-                <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-                <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-                <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-                <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-                <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-                <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-                <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-                <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-                <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-                <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+                <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+                <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+                <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+                <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+                <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+                <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+                <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+                <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+                <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+                <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+                <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+                <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+                <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
               </folding>
             </state>
           </provider>
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/db.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -145,11 +145,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -185,16 +195,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -677,20 +677,26 @@
       <workItem from="1496404148952" duration="3968000" />
       <workItem from="1496410912196" duration="1143000" />
       <workItem from="1496420566552" duration="1164000" />
+      <workItem from="1496475057730" duration="1743000" />
+      <workItem from="1496573644854" duration="5027000" />
+      <workItem from="1496752566172" duration="3275000" />
+      <workItem from="1496757999210" duration="886000" />
+      <workItem from="1497114212369" duration="1717000" />
+      <workItem from="1497170038018" duration="1460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61062000" />
+    <option name="totallyTimeSpent" value="75170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="988" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="988" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32623318" sideWeight="0.50625" order="10" side_tool="true" content_ui="tabs" />
@@ -734,6 +740,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Extra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/conn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -741,19 +755,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -784,19 +798,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -827,19 +841,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -870,19 +884,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -913,19 +927,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -956,19 +970,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -999,19 +1013,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1042,19 +1056,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1085,19 +1099,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1120,19 +1134,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1155,19 +1169,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1179,19 +1193,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1214,19 +1228,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1249,19 +1263,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1284,19 +1298,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1319,19 +1333,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1354,54 +1368,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1424,19 +1403,54 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1459,19 +1473,19 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>
@@ -1498,7 +1512,7 @@
     <entry file="file://$PROJECT_DIR$/src/db.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -1508,24 +1522,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/conn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79826087">
-          <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.76869565">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1496421326617" expanded="true" signature="1799:1893" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="1799:1937" placeholder="CREATE TABLE... if" />
-            <marker date="1496421326617" expanded="true" signature="2222:2235" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2293" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2294" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2325" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2222:2326" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="2359:2440" placeholder="INSERT INTO " />
-            <marker date="1496421326617" expanded="true" signature="3136:3163" placeholder="DELETE FROM " />
-            <marker date="1496421326617" expanded="true" signature="3354:3371" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="4461:4475" placeholder="SELECT * FRO... users" />
-            <marker date="1496421326617" expanded="true" signature="4461:4478" placeholder="SELECT * FRO... Lib" />
-            <marker date="1496421326617" expanded="true" signature="5548:5565" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="2562:2656" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="2562:2700" placeholder="CREATE TABLE... if" />
+            <marker date="1497171328504" expanded="true" signature="3095:3108" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3166" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3167" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3198" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3095:3199" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="3232:3339" placeholder="INSERT INTO " />
+            <marker date="1497171328504" expanded="true" signature="4073:4100" placeholder="DELETE FROM " />
+            <marker date="1497171328504" expanded="true" signature="4291:4308" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="5398:5412" placeholder="SELECT * FRO... users" />
+            <marker date="1497171328504" expanded="true" signature="5398:5415" placeholder="SELECT * FRO... Lib" />
+            <marker date="1497171328504" expanded="true" signature="6485:6502" placeholder="SELECT * FRO... Lib" />
           </folding>
         </state>
       </provider>

@@ -2,10 +2,7 @@
  * Created by Meiram on 24.03.2017.
  */
 import java.sql.*;
-import java.text.DateFormat;
 import java.util.Formatter;
-import java.util.GregorianCalendar;
-import java.util.Locale;
 import java.util.Scanner;
 
 
@@ -18,6 +15,7 @@ public class conn {
     private static String aType;
     private static int aPages;
     private static String aHouse;
+    private static String aDate;
 
     public static void setName(){
         System.out.println("Enter name");
@@ -25,9 +23,25 @@ public class conn {
         aName = in.nextLine();
     }
     public static void setType(){
-        System.out.println("Enter Type");
+        System.out.println("Enter Type:");
+        System.out.println("1 - Book;");
+        System.out.println("2 - Journal;");
+        System.out.println("3 - Brochure;");
+
         Scanner in = new Scanner(System.in);
-        aType = in.nextLine();
+        int type = in.nextInt();
+        switch (type) {
+            case 1:
+                aType = "Book";
+                break;
+            case 2:
+                aType = "Journal";
+                break;
+            case 3:
+                aType = "Brochure";
+                break;
+
+        }
     }
     public static void setPages(){
         System.out.println("Enter number of pages");
@@ -39,7 +53,18 @@ public class conn {
         Scanner in = new Scanner(System.in);
         aHouse = in.nextLine();
     }
-
+    public static void setDate(){
+        System.out.println("Enter Year for book");
+        Scanner in = new Scanner(System.in);
+        String year = in.nextLine();
+        aDate = year;
+    }
+    public static void setMonth(){
+        System.out.println("Enter year and month of journal/brochure");
+        Scanner in = new Scanner(System.in);
+        String year = in.nextLine();
+        aDate = year;
+            }
 
     // --------ПОДКЛЮЧЕНИЕ К БАЗЕ ДАННЫХ--------
     public static void Conn() throws ClassNotFoundException, SQLException
@@ -74,15 +99,21 @@ public class conn {
         setType();
         setPages();
         setHouse();
+        if(aType == "Book"){
+            setDate();
+        }
+        else{
+            setMonth();
+        }
         //statmt.execute("INSERT INTO 'Lib' ('Name', 'Type', 'Pages', 'Publishing_house') VALUES ('Book1', 'Book', 1254, 'House1'); ");//
-        String insert = "INSERT INTO 'Lib'('Name', 'Type', 'Pages', 'Publishing_house') VALUES(?, ?, ?, ?)";
+        String insert = "INSERT INTO 'Lib'('Name', 'Type', 'Pages', 'Publishing_house', 'Date_Of_Publication') VALUES(?, ?, ?, ?, ?)";
         PreparedStatement prepInsert = conn.prepareStatement(insert);
         prepInsert.setString(1,aName);
         prepInsert.setString(2,aType);
         prepInsert.setInt(3,aPages);
         prepInsert.setString(4,aHouse);
+        prepInsert.setString(5,aDate);
         prepInsert.execute();
-
         System.out.println("Таблица заполнена");
 
         conn.close();
